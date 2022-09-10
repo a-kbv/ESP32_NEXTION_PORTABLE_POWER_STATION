@@ -244,7 +244,7 @@ unsigned long currentMillis = millis();
   if(aluw[2] == 1){
     digitalWrite(26, HIGH);
     nextionSetPictureVisibility(1, "usb");
-    nextionSetButtonState(0, "btusb");
+    nextionSetButtonState(1, "btusb");
   }else{
     digitalWrite(26, LOW);
     nextionSetPictureVisibility(0, "usb");
